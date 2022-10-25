@@ -10,22 +10,24 @@
 <body>
     <header>
         <h1 id="high-scores" class="high-scores">View High Scores:</h1>
-        <timer id="timer" class="timer"><h1>Time:</h1></timer>
+        <span id="timer" class="timer"><h1>Time:</h1></span>
     </header>
 
     <div id="starting-page" class="start">
         <div class="coding-quiz-container">
             <h1>Coding Quiz Challenge</h1>
                 <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-            <button id="start-quiz">Start Quiz</button>
+                <button id="start-quiz">Start Quiz</button>
         </div>
     </div>
 
     <div id="questions-page" class="questions">
-        <div class="questions-container">
-            <div id="quiz-questions"></div>
-            <button id="answer-button"></div>
-        </div>
+        <ol class="answers">
+            <button class="answerButton" data-number="1"></button>
+            <button class="answerButton" data-number="2"></button>
+            <button class="answerButton" data-number="3"></button>
+            <button class="answerButton" data-number="4"></button>
+        </ol>
     </div>
 
     <div id="all-done-page" class="all-done">
