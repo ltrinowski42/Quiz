@@ -67,4 +67,17 @@ var quizQuestions = [
     },
   ]
   
+  var startScore = 0; 
+  var questionIndex = 0;
+
+  function codingQuiz() {
+    quizChallengePage.style.display = "block";
+    header.style.display = "block";
+    quizQuestionsPage.style.display = "none";
+    finalScorePage.style.display = "none"; 
+  
+    var startScore = 0;  
+    timer.textContent = "Time: " + startScore; 
+  }
+
 
