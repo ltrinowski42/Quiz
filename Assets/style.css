@@ -29,8 +29,8 @@
   
   button {
     text-align: center;
-    background-color: #ae83c7;
-    border-color: #ae83c7;
+    background-color: #834fa1;
+    border-color: #834fa1;
     color: white;
     font-size: 22px;
     padding: 0px 12px 0px 12px;
@@ -50,7 +50,7 @@
     text-align: center; 
   }
   
-  #quizHeader {
+  #questionHeader {
     font-size: 25px;
     font-weight: bolder; 
     padding-top: 100px;
@@ -65,8 +65,8 @@
   
   .question-button {
     text-align: center;
-    background-color: #ae83c7;
-    border-color: #ae83c7;
+    background-color: #834fa1;
+    border-color: #834fa1;
     color: white;
     font-size: 22px;
     padding: 0px 12px 0px 12px;
