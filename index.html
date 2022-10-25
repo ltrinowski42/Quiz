@@ -17,7 +17,7 @@
         <div class="coding-quiz-container">
             <h1>Coding Quiz Challenge</h1>
                 <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-            <button id="start-quiz">Start Quiz</button>
+            <button id="start-quiz" class="button">Start Quiz</button>
         </div>
     </div>
 
@@ -25,6 +25,19 @@
         <div class="questions-container">
             <div id="quiz-questions"></div>
             <div id="answer" class="answer-button"></div>
+        </div>
+    </div>
+
+    <div id="all-done-page" class="all-done">
+        <div class="all-done-conatiner">
+            <div id="score">
+                <h1>All done!</h1>
+            </div>
+            <form id="initials-input" class="initials">
+                <p>Enter initials:
+                    <input type="text" name="initials" id="initials" class="initials-text"/>
+                    <button class="button" id="submit-score" type="submit">Submit</button></p>
+            </form>
         </div>
     </div>
 
