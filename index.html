@@ -10,48 +10,48 @@
 <body>
     <nav class="header">
         <div class="card-body justify-content-end">
-            <a type="button" id="high-scores" onclick="showHighScores()">High Scores</a><!---id score-->
+            <a type="button" id="highScores" onclick="showHighScores()">High Scores</a><!---id score-->
             <a id="timer"></a>
         </div>
 
     <main class="container">
-        <div id="quizPage"><!---quzChallengePage-->
-            <h1 id="h1">Coding Quiz</h1> <!---start-->
+        <div id="quiz-page"><!---quzChallengePage-->
+            <h1 id="coding-quiz">Coding Quiz</h1> <!---start-->
             <p id="description"><!---explanation-->Quiz time! Answer the following coding questions and see how many you can get right. But be careful! Wrong answers will take 10 seconds off of your time! Check out the high scores after you're done to see how you did.</p>
             <div id="button">   
-                <button id="submitButton" class ="btn active" type="button">Let's go!</button>
+                <button id="submit-button" class ="active button" type="button">Let's go!</button><!--btn active-->
             </div>
         </div>
 
-        <div id="questionsPage"><!--quizQuestionsPage-->
+        <div id="questions-page"><!--quizQuestionsPage-->
             <h2 id="quizHeader"></h2><!--quizQuestionHeader-->
             <ul>
-                <li><button type="button" class="btn questionButton" id="one"></button></li>
-                <li><button type="button" class="btn questionButton" id="two"></button></li>
-                <li><button type="button" class="btn questionButton" id="three"></button></li>
-                <li><button type="button" class="btn questionButton" id="four"></button></li>
+                <li><button type="button" class="question-button" id="one"></button></li>
+                <li><button type="button" class="question-button" id="two"></button></li>
+                <li><button type="button" class="question-button" id="three"></button></li>
+                <li><button type="button" class="question-button" id="four"></button></li><!--btn questionButton-->
                 <!-- <li><button id="correct"></div> -->
             </ul>
 
-            <div id="answerResponse"></div>
+            <div id="answer"></div><!---answerResponse-->
         </div>
 
         <div id="finalScorePage"><!---finalScore-->
-            <h2 id="Finished">Finished!</h2><!--allDone-->
-            <div id="finalScore"></div><!---finalScoreIs-->
+            <h2 id="finished">Finished!</h2><!--allDone-->
+            <div id="final-score"></div><!---finalScoreIs-->
             <form class="row">
                 <!--Text saying enter initials-->
                 <div class="form-inline">
                     <label for="text" id="initials" class="col col-form-label input-group"></label>
                     <div> 
-                    <input type="text" class="col form-control" id="initialInput">
-                    <button id="initialButton" class="btn" type="button"></button></a>
+                    <input type="text" class="col form-control" id="initial-input"><!---initialInput-->
+                    <button id="initial-button" class="btn" type="button"></button></a><!--initialButton-->
                 </div>
             </form>
         </div>
 
-        <div id="highScoresPage"><!---highScoreButtons-->
-            <h2 id="highScores">Highscores:</h2>
+        <div id="high-scores-page"><!---highScoreButtons-->
+            <h2 id="high-scores">Highscores:</h2>
             <p id="highScoresList"></p>
            <div class="col-sm-12 text-center">
                <button id="tryAgain" class ="btn" type="button">Try Again?</button></a><!---goBack-->
