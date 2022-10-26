@@ -1,11 +1,20 @@
 *{
   box-sizing: border-box;
+  font-family: sans-serif;
+  color: var(--primary);
 }
 
 :root {
-  --primary: ;
-  --secondary: ;
-  --tertiary: ; 
+  --primary: #000000;
+  --secondary:#672179;
+  --tertiary: #983baf; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffff;
+  line-height: 1.5;
 }
 
 header {
