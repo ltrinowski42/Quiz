@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1 id="high-scores" class="high-scores">View High Scores:</h1>
+        <h1 id="high-scores" class="high-scores">View High Scores</h1>
         <span id="timer" class="timer"><h1>Time:</h1></span>
     </header>
 
@@ -17,16 +17,16 @@
         <div class="coding-quiz-container">
             <h1>Coding Quiz Challenge</h1>
                 <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-                <button id="start-quiz">Start Quiz</button>
+                <button type="button" class="start-quiz">Start Quiz</button>
         </div>
     </div>
 
     <div id="questions-page" class="questions">
         <ol class="answers">
-            <button class="answerButton" data-number="1"></button>
-            <button class="answerButton" data-number="2"></button>
-            <button class="answerButton" data-number="3"></button>
-            <button class="answerButton" data-number="4"></button>
+            <button type="button" class="answerButton" data-number="1"></button>
+            <button type="button" class="answerButton" data-number="2"></button>
+            <button type="button" class="answerButton"data-number="3"></button>
+            <button type="button" class="answerButton"data-number="4"></button>
         </ol>
     </div>
 
@@ -35,10 +35,10 @@
             <div id="score">
                 <h1>All done!</h1>
             </div>
-            <form id="initials-input" class="initials">
-                <h2>Enter initials:</h2>
-                    <input type="text" id="initials" class="initials-text"/>
-                    <input type="button" id="submit-score" type="submit"></button></p>
+            <form id="initials-form" class="initials">
+                <p>Enter initials:
+                <input type="text" id="initials-input" name="initials">
+                <input type="submit" value="Submit" id="submit"></p>
             </form>
         </div>
     </div>
@@ -48,7 +48,7 @@
         <h1 class="high-score-header">High Scores:</h1>
         <ol id="high-score-list" class="score-list"></ol>
     </div>
-        <button class="button" id="go-back">Go Back</button>
+        <button type="button" class="go-back">Go Back</button>
         <button class="button" id="clear-high-scores">Clear High Scores</button>
    </div> 
 

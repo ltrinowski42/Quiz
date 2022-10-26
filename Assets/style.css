@@ -6,8 +6,8 @@
 
 :root {
   --primary: #000000;
-  --secondary:#672179;
-  --tertiary: #983baf; 
+  --secondary:#6a22c9;
+  --tertiary: #8b33ff; 
 }
 
 body {
@@ -39,3 +39,12 @@ header h1 {
   padding: 1px 5px 6%;
 }
 
+button {
+  background: var(--secondary);
+  color: var(--white);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 3px grey;
+  margin-top: 10px;
+}
