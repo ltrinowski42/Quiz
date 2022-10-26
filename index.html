@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1 id="high-scores" class="high-scores">View High Scores</h1>
+        <h1 id="view-high-scores" class="view-high-scores">View High Scores</h1>
         <span id="timer" class="timer"><h1>Time:</h1></span>
     </header>
 
@@ -23,10 +23,10 @@
 
     <div id="questions-page" class="questions">
         <ol class="answers">
-            <button type="button" class="answerButton" data-number="1"></button>
-            <button type="button" class="answerButton" data-number="2"></button>
-            <button type="button" class="answerButton"data-number="3"></button>
-            <button type="button" class="answerButton"data-number="4"></button>
+            <button type="button" id="answer-button" data-number="1"></button>
+            <button type="button" id="answer-button" data-number="2"></button>
+            <button type="button" id="answer-button"data-number="3"></button>
+            <button type="button" id="answer-button"data-number="4"></button>
         </ol>
     </div>
 
@@ -38,7 +38,7 @@
             <form id="initials-form" class="initials">
                 <p>Enter initials:
                 <input type="text" id="initials-input" name="initials">
-                <input type="submit" value="Submit" id="submit"></p>
+                <button type="button" id="submit">Submit</button></p>
             </form>
         </div>
     </div>
